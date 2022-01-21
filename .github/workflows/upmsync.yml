@@ -14,12 +14,12 @@ jobs:
           git config --local user.name "game-workstore-bot"
           sudo apt-get install diffutils
       
-     - name: Cook UPM
+      - name: Cook UPM
         run: |
           git subtree split -P Assets/Package/ -b upm
           git checkout upm
           ls
-
+      
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
