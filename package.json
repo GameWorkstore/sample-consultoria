@@ -1,0 +1,16 @@
+{
+  "name": "com.solarismobile.sample",
+  "version": "0.1.1",
+  "displayName": "Solaries Patterns for multiple games",
+  "description": "Description",
+  "unity": "2020.3",
+  "icon": ".icon.png",
+  "keywords": [ "patterns", "utils" ],
+  "author": {
+    "name": "Solaries",
+    "email": "contact@solarismobile.com"
+  },
+  "dependencies": {
+	  
+  }
+}
